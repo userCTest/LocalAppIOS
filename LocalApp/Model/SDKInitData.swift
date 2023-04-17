@@ -8,7 +8,7 @@
 import Foundation
 
 struct SDKInitData {
-    static let settingsId = "smEOKjJQQ40tQW" //"Insi1P6_p" //"syV5G8hMG" //"hKTmJ4UVL"
+    static let settingsId = "egLMgjg9j" //"Insi1P6_p" //"syV5G8hMG" //"hKTmJ4UVL" // "egLMgjg9j"
     static let LOG_ERROR_TAG = "[USERCENTRICS][ERROR]: "
     static let LOG_TAG = "[USERCENTRICS][SAMPLE]: "
 }

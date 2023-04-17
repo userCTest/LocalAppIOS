@@ -10,6 +10,7 @@ import Usercentrics
 
 func sdkInit(){
     let options = UsercentricsOptions(settingsId: SDKInitData.settingsId)
+    options.loggerLevel = UsercentricsLoggerLevel.debug
     UsercentricsCore.configure(options: options)
     print("\(SDKInitData.LOG_TAG) Usercentrics initialized")
     

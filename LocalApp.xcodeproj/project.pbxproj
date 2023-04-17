@@ -23,6 +23,8 @@
 		8E7CE8FF29D1D69600D30BC8 /* UsercentricsUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE8F729D1D36700D30BC8 /* UsercentricsUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8E7CE90129D1D6AC00D30BC8 /* Usercentrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE90029D1D6AC00D30BC8 /* Usercentrics.framework */; };
 		8E7CE90229D1D6AC00D30BC8 /* Usercentrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE90029D1D6AC00D30BC8 /* Usercentrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E7CE90A29D6F0A100D30BC8 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E7CE90929D6F0A100D30BC8 /* SVGKit */; };
+		8E7CE90C29D6F0A100D30BC8 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E7CE90B29D6F0A100D30BC8 /* SVGKitSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7CE90C29D6F0A100D30BC8 /* SVGKitSwift in Frameworks */,
+				8E7CE90A29D6F0A100D30BC8 /* SVGKit in Frameworks */,
 				8E7CE90129D1D6AC00D30BC8 /* Usercentrics.framework in Frameworks */,
 				8E7CE8FE29D1D69600D30BC8 /* UsercentricsUI.framework in Frameworks */,
 			);
@@ -207,6 +211,10 @@
 			dependencies = (
 			);
 			name = LocalApp;
+			packageProductDependencies = (
+				8E7CE90929D6F0A100D30BC8 /* SVGKit */,
+				8E7CE90B29D6F0A100D30BC8 /* SVGKitSwift */,
+			);
 			productName = LocalApp;
 			productReference = 8E4630FF29B8AF1100FCE7BE /* LocalApp.app */;
 			productType = "com.apple.product-type.application";
@@ -235,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 8E4630F629B8AF1100FCE7BE;
+			packageReferences = (
+				8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
 			productRefGroup = 8E46310029B8AF1100FCE7BE /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -524,6 +535,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				branch = 3.x;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E7CE90929D6F0A100D30BC8 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		8E7CE90B29D6F0A100D30BC8 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E4630F729B8AF1100FCE7BE /* Project object */;
 }
