@@ -16,7 +16,7 @@ public func applyResponse(userInteraction: UsercentricsUserInteraction){
         printSectionTitle(title: "USER INTERACION")
         print(userInteraction)
         
-        getGDPRData(consents: consents)
+        //getGDPRData(consents: consents)
         
         if(UsercentricsCore.shared.getCMPData().activeVariant == UsercentricsVariant.tcf) {
             getTCFData()
@@ -82,11 +82,11 @@ fileprivate func getTCFData() {
             }
         }
         
-        printSectionTitle(title: "PURPOSES WITH CONSENT TRUE")
-        let purposesListTrue = purposesList.filter { purpose in purpose.consent == true }
-        for purpose in purposesListTrue {
-        print("\(String(describing: purpose.name).padding(toLength: 40, withPad: " ", startingAt: 0)) | Id: \(String(describing: purpose.id).padding(toLength: 10, withPad: " ", startingAt: 0))")
-        }
+//        printSectionTitle(title: "PURPOSES WITH CONSENT TRUE")
+//        let purposesListTrue = purposesList.filter { purpose in purpose.consent == true }
+//        for purpose in purposesListTrue {
+//        print("\(String(describing: purpose.name).padding(toLength: 40, withPad: " ", startingAt: 0)) | Id: \(String(describing: purpose.id).padding(toLength: 10, withPad: " ", startingAt: 0))")
+//        }
 
         printSectionTitle(title: "VENDORS WITH CONSENT TRUE")
         var vendorsList = vendors.filter { tcfVendor in tcfVendor.consent == true }
@@ -94,7 +94,10 @@ fileprivate func getTCFData() {
         tcfVendor1.id < tcfVendor2.id })
 
         for vendor in vendorsList {
-        print("\(String(describing: vendor.name).padding(toLength: 40, withPad: " ", startingAt: 0)) | Id: \(String(describing: vendor.id).padding(toLength: 7, withPad: " ", startingAt: 0))")
+            print("\(String(describing: vendor.name).padding(toLength: 40, withPad: " ", startingAt: 0)) | Id: \(String(describing: vendor.id).padding(toLength: 7, withPad: " ", startingAt: 0))")
+            for purpose in vendor.purposes {
+                print("\(String(describing: " ").padding(toLength: 4, withPad: " ", startingAt: 0)) PurposeId: \(String(describing: purpose.id).padding(toLength: 7, withPad: " ", startingAt: 0)) | Purpose Name: \(String(describing: purpose.name).padding(toLength: 20, withPad: " ", startingAt: 0))")
+            }
         }
 
         printSectionTitle(title: "VENDORS WITH LI TRUE")
