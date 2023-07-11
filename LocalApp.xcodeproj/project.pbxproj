@@ -18,7 +18,6 @@
 		8E7CE8EA29D1D29900D30BC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46310429B8AF1100FCE7BE /* ContentView.swift */; };
 		8E7CE8EB29D1D29900D30BC8 /* LocalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46310229B8AF1100FCE7BE /* LocalAppApp.swift */; };
 		8E7CE8ED29D1D29900D30BC8 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46369529B8BC8E00FCE7BE /* Init.swift */; };
-		8E7CE8EE29D1D2A800D30BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46368C29B8B90500FCE7BE /* AppDelegate.swift */; };
 		8E7CE8FE29D1D69600D30BC8 /* UsercentricsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE8F729D1D36700D30BC8 /* UsercentricsUI.framework */; };
 		8E7CE8FF29D1D69600D30BC8 /* UsercentricsUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE8F729D1D36700D30BC8 /* UsercentricsUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8E7CE90129D1D6AC00D30BC8 /* Usercentrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CE90029D1D6AC00D30BC8 /* Usercentrics.framework */; };
@@ -37,6 +36,14 @@
 		8E8C87262A0D1A44000DB07D /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8C87252A0D1A44000DB07D /* SVGKitSwift */; };
 		8E8C872A2A0D1DC4000DB07D /* Usercentrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8C87292A0D1DC4000DB07D /* Usercentrics.framework */; };
 		8E8C872B2A0D1DC4000DB07D /* Usercentrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8C87292A0D1DC4000DB07D /* Usercentrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFC038C32A28BE0B00370007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC038C22A28BE0B00370007 /* AppDelegate.swift */; };
+		EFD00E9B2A5D6D1E00A6F3DB /* AdjustMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00E9A2A5D6D1E00A6F3DB /* AdjustMediation */; };
+		EFD00E9D2A5D6D1E00A6F3DB /* AppLovinMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00E9C2A5D6D1E00A6F3DB /* AppLovinMediation */; };
+		EFD00E9F2A5D6D1E00A6F3DB /* IronSourceMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00E9E2A5D6D1E00A6F3DB /* IronSourceMediation */; };
+		EFD00EA12A5D6D1E00A6F3DB /* UnityAdsMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00EA02A5D6D1E00A6F3DB /* UnityAdsMediation */; };
+		EFD00EA42A5D6D9F00A6F3DB /* FirebaseAnalyticsMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00EA32A5D6D9F00A6F3DB /* FirebaseAnalyticsMediation */; };
+		EFD00EA62A5D6D9F00A6F3DB /* FirebaseCrashlyticsMediation in Frameworks */ = {isa = PBXBuildFile; productRef = EFD00EA52A5D6D9F00A6F3DB /* FirebaseCrashlyticsMediation */; };
+		EFD00EAF2A5D96ED00A6F3DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD00EAE2A5D96ED00A6F3DB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +110,6 @@
 		8E46310429B8AF1100FCE7BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E46310629B8AF1300FCE7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E46310929B8AF1300FCE7BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E46368C29B8B90500FCE7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/ruireisusercentrics/program/usercentrics/code/mobile/ios/LocalApp/LocalApp/AppDelegate.swift; sourceTree = "<absolute>"; };
 		8E46369329B8BC8400FCE7BE /* SDKInitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKInitData.swift; sourceTree = "<group>"; };
 		8E46369529B8BC8E00FCE7BE /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		8E46369829B8BDE000FCE7BE /* WebviewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewUtils.swift; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 		8E8C871C2A0D19E9000DB07D /* UsercentricsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsercentricsUIViewController.swift; sourceTree = "<group>"; };
 		8E8C871E2A0D1A18000DB07D /* SDKInitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKInitData.swift; sourceTree = "<group>"; };
 		8E8C87292A0D1DC4000DB07D /* Usercentrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Usercentrics.framework; path = "../../mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/Usercentrics.framework"; sourceTree = "<group>"; };
+		EFC038C22A28BE0B00370007 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD00EAE2A5D96ED00A6F3DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +136,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD00E9D2A5D6D1E00A6F3DB /* AppLovinMediation in Frameworks */,
 				8E7CE90C29D6F0A100D30BC8 /* SVGKitSwift in Frameworks */,
+				EFD00E9B2A5D6D1E00A6F3DB /* AdjustMediation in Frameworks */,
 				8E7CE90A29D6F0A100D30BC8 /* SVGKit in Frameworks */,
+				EFD00EA62A5D6D9F00A6F3DB /* FirebaseCrashlyticsMediation in Frameworks */,
+				EFD00EA12A5D6D1E00A6F3DB /* UnityAdsMediation in Frameworks */,
 				8E7CE90129D1D6AC00D30BC8 /* Usercentrics.framework in Frameworks */,
+				EFD00E9F2A5D6D1E00A6F3DB /* IronSourceMediation in Frameworks */,
+				EFD00EA42A5D6D9F00A6F3DB /* FirebaseAnalyticsMediation in Frameworks */,
 				8E7CE8FE29D1D69600D30BC8 /* UsercentricsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +186,9 @@
 		8E46310129B8AF1100FCE7BE /* LocalApp */ = {
 			isa = PBXGroup;
 			children = (
-				8E46368C29B8B90500FCE7BE /* AppDelegate.swift */,
+				EFD00EAE2A5D96ED00A6F3DB /* GoogleService-Info.plist */,
+				EFD00EAB2A5D958B00A6F3DB /* ConsentMediation */,
+				EFC038C22A28BE0B00370007 /* AppDelegate.swift */,
 				8E46369729B8BDE000FCE7BE /* UIViewController */,
 				8E46369229B8BC6E00FCE7BE /* Model */,
 				8E46369129B8BC4400FCE7BE /* App */,
@@ -269,6 +285,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EFD00EAB2A5D958B00A6F3DB /* ConsentMediation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConsentMediation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,6 +312,12 @@
 			packageProductDependencies = (
 				8E7CE90929D6F0A100D30BC8 /* SVGKit */,
 				8E7CE90B29D6F0A100D30BC8 /* SVGKitSwift */,
+				EFD00E9A2A5D6D1E00A6F3DB /* AdjustMediation */,
+				EFD00E9C2A5D6D1E00A6F3DB /* AppLovinMediation */,
+				EFD00E9E2A5D6D1E00A6F3DB /* IronSourceMediation */,
+				EFD00EA02A5D6D1E00A6F3DB /* UnityAdsMediation */,
+				EFD00EA32A5D6D9F00A6F3DB /* FirebaseAnalyticsMediation */,
+				EFD00EA52A5D6D9F00A6F3DB /* FirebaseCrashlyticsMediation */,
 			);
 			productName = LocalApp;
 			productReference = 8E4630FF29B8AF1100FCE7BE /* LocalApp.app */;
@@ -345,6 +374,8 @@
 			mainGroup = 8E4630F629B8AF1100FCE7BE;
 			packageReferences = (
 				8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */,
+				EFD00EA22A5D6D9F00A6F3DB /* XCRemoteSwiftPackageReference "ios-firebase-consent-mediation" */,
 			);
 			productRefGroup = 8E46310029B8AF1100FCE7BE /* Products */;
 			projectDirPath = "";
@@ -400,6 +431,7 @@
 			files = (
 				8E46310A29B8AF1300FCE7BE /* Preview Assets.xcassets in Resources */,
 				8E46310729B8AF1300FCE7BE /* Assets.xcassets in Resources */,
+				EFD00EAF2A5D96ED00A6F3DB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +451,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7CE8EE29D1D2A800D30BC8 /* AppDelegate.swift in Sources */,
 				8E7CE8E429D1D29900D30BC8 /* WebviewUtils.swift in Sources */,
 				8E7CE8E529D1D29900D30BC8 /* TopViewController.swift in Sources */,
 				8E7CE8E629D1D29900D30BC8 /* BannerSettings.swift in Sources */,
@@ -428,6 +459,7 @@
 				8E7CE8E929D1D29900D30BC8 /* SDKInitData.swift in Sources */,
 				8E7CE8EA29D1D29900D30BC8 /* ContentView.swift in Sources */,
 				8E7CE8EB29D1D29900D30BC8 /* LocalAppApp.swift in Sources */,
+				EFC038C32A28BE0B00370007 /* AppDelegate.swift in Sources */,
 				8E7CE8ED29D1D29900D30BC8 /* Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,11 +607,11 @@
 				DEVELOPMENT_TEAM = D4388L47QZ;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/Usercentrics.framework/Headers/";
+				HEADER_SEARCH_PATHS = "/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/Usercentrics.framework/Headers/";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -610,11 +642,11 @@
 				DEVELOPMENT_TEAM = D4388L47QZ;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/Usercentrics.framework/Headers/";
+				HEADER_SEARCH_PATHS = "/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks/Usercentrics.framework/Headers/";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -645,13 +677,13 @@
 				DEVELOPMENT_TEAM = D4388L47QZ;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/Headers/",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/Headers",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/Headers/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/Headers",
 				);
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -681,13 +713,13 @@
 				DEVELOPMENT_TEAM = D4388L47QZ;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/Headers",
-					"/Users/ruireisusercentrics/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/Headers/",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/ios/UsercentricsUI/Framework/UsercentricsUI/Headers",
+					"/Users/ruireis/program/usercentrics/code/mobile/mobile-sdk/platforms/common/usercentrics/build/xcode-frameworks-tv/Headers/",
 				);
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -747,6 +779,22 @@
 				kind = branch;
 			};
 		};
+		EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Usercentrics/ios-consent-mediation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EFD00EA22A5D6D9F00A6F3DB /* XCRemoteSwiftPackageReference "ios-firebase-consent-mediation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Usercentrics/ios-firebase-consent-mediation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -769,6 +817,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8E7CE90829D6F0A100D30BC8 /* XCRemoteSwiftPackageReference "SVGKit" */;
 			productName = SVGKitSwift;
+		};
+		EFD00E9A2A5D6D1E00A6F3DB /* AdjustMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */;
+			productName = AdjustMediation;
+		};
+		EFD00E9C2A5D6D1E00A6F3DB /* AppLovinMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */;
+			productName = AppLovinMediation;
+		};
+		EFD00E9E2A5D6D1E00A6F3DB /* IronSourceMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */;
+			productName = IronSourceMediation;
+		};
+		EFD00EA02A5D6D1E00A6F3DB /* UnityAdsMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00E992A5D6D1E00A6F3DB /* XCRemoteSwiftPackageReference "ios-consent-mediation" */;
+			productName = UnityAdsMediation;
+		};
+		EFD00EA32A5D6D9F00A6F3DB /* FirebaseAnalyticsMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00EA22A5D6D9F00A6F3DB /* XCRemoteSwiftPackageReference "ios-firebase-consent-mediation" */;
+			productName = FirebaseAnalyticsMediation;
+		};
+		EFD00EA52A5D6D9F00A6F3DB /* FirebaseCrashlyticsMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD00EA22A5D6D9F00A6F3DB /* XCRemoteSwiftPackageReference "ios-firebase-consent-mediation" */;
+			productName = FirebaseCrashlyticsMediation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

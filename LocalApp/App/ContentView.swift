@@ -14,6 +14,9 @@ struct ContentView: View {
         UsercentricsUIViewController().showFirstLayer(layout: .sheet)
     }
     
+    // register app delegate for Firebase setup
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some View {
         VStack {
             Image("usercentrics")

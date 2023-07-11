@@ -8,6 +8,7 @@
 import Foundation
 import Usercentrics
 import UIKit
+import FirebaseCore
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
@@ -16,6 +17,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     {
         sdkInit()
         
+        // MARK: Mediation
+        // Firebase
+        FirebaseApp.configure()
+        
         return true
     }
 }
+

@@ -32,10 +32,13 @@ struct UsercentricsUIViewController: UIViewControllerRepresentable {
         UsercentricsCore.isReady { status in
             let banner = UsercentricsBanner(bannerSettings: getBannerSettings(layout: layout))
             let newView = getTopMostViewController() ?? view
-            
-            banner.showFirstLayer(hostView: newView) { userResponse in
-                applyResponse(userInteraction: userResponse.userInteraction)
-            }
+//            if (status.shouldCollectConsent){
+                banner.showFirstLayer(hostView: newView) { userResponse in
+                    applyResponse(userInteraction: userResponse.userInteraction)
+                }
+//            } else {
+//                print("First Layer already Shown")
+//            }
         } onFailure: { error in
             print("\(SDKInitData.LOG_TAG) SDK not yet ready")
         }

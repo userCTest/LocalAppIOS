@@ -11,9 +11,10 @@ import Usercentrics
 func sdkInit(){
     let options = UsercentricsOptions(settingsId: SDKInitData.settingsId)
     options.loggerLevel = UsercentricsLoggerLevel.debug
+    options.consentMediation = true
     UsercentricsCore.configure(options: options)
     print("\(SDKInitData.LOG_TAG) Usercentrics initialized")
-    
+
     shouldCollectConsent()
 }
 

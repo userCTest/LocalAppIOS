@@ -8,5 +8,5 @@
 import Foundation
 
 struct SDKInitData {
-    static let settingsId = "lzZwy3VAp" //egLMgjg9j" //Insi1P6_p", "syV5G8hMG"
+    static let settingsId = "vDDcTI9N_ERNnl" //egLMgjg9j" //Insi1P6_p", "syV5G8hMG"
 }
